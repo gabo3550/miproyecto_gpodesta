@@ -1,0 +1,195 @@
+*{margin:0;
+padding:0;
+
+}
+
+.contenedor h1 {
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    margin-left:30px;
+    }
+
+.contenedor h1 {
+   animation-duration: 2s;
+   animation-name: aparecer;
+   animation-iteration-count: infinite;
+}
+
+
+@keyframes aparecer {
+   0% {
+     opacity: 0;
+   }
+   100% {
+     opacity: 1;
+   }
+}
+
+ h2{
+   color:#DBDFE2;
+   font-family:'Roboto', sans-serif;
+ }
+ 
+ .contenedor{
+  display: block;
+  background-color: purple;
+  padding:30px;
+}
+
+.fotoapertura {
+width: 100%;
+}
+
+#header{
+          min-height: 150px;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+
+}
+
+
+ ul {
+    list-style-type: none;
+    margin: 10;
+    padding: 20;
+    overflow: hidden;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    font-family:'RobotoThin', sans-serif;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;
+    border-right:1px solid black;
+  
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: rgb(227, 52, 127);
+  }
+
+ li {
+    display: inline;
+  }
+
+ 
+
+ table {
+    background-color: #AB78C1;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+    font-weight: normal;
+    line-height: 1.6;
+    color: aliceblue;
+    text-align: right;
+  }
+    
+    
+form {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 1.6;
+  background-color: rgb(134, 131, 132);
+
+}
+
+footer p{
+
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  background-color: yellowgreen;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+/*AQUI APLICO FLEXBOX Y GRID*/
+
+.contenedor {
+  min-height: 800px;
+  display: grid;
+  grid-template-columns: 1000px auto;
+  grid-template-rows: 100px 200px auto;
+  background-image: url(IMG/apertura_estudio.jpg);
+  background-position:center;
+  background-size:cover;
+}
+
+.contenedor h1{
+color: white;
+margin-left: 30px;
+}
+
+.conenedor logo_estudio_22_contenedor{
+
+
+}
+
+.flex-container {
+  display: flex;
+  background-color: #f1f1f1;
+  flex-wrap: wrap;
+  justify-content:center;
+}
+
+.flex-container >div {
+  color: white;
+  width: 200px;
+  height:200px;
+  margin: 2px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.cajaRojo{
+  background-color:#DA0A1B;
+}
+
+.cajaAzul{
+  background-color:#50BBD9;
+}
+
+.cajaMagenta{
+  background-color:#D92378;
+}
+
+.cajaVerde{
+  background-color:#68A629;
+}
+
+.cajaRojo:hover {
+  background-color: #D92378;
+ }
+
+ .cajaAzul:hover {
+  background-color:#68A629;
+ }
+
+ .cajaMagenta:hover {
+  background-color:#DA0A1B;
+ }
+
+.cajaVerde:hover {
+  background-color:#50BBD9;
+ }
+
+
+
+ 
+     
+ 
+ 
